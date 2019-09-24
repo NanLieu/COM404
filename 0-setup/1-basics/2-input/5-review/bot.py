@@ -1,0 +1,11 @@
+# How to calculate Percentage increase
+print("Percentage Calculator /n Please enter the number which has the percentage increased")
+increased_number = int(input())
+print("Please enter the original number it was increased from")
+original_number = int(input())
+print()
+print("Now here comes the calculations!")
+print("**********************************")
+print("Hit enter to reveal the result!")
+input()
+print(((increased_number-original_number)/original_number*100),"%")
