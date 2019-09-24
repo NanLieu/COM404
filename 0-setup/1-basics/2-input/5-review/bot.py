@@ -1,5 +1,8 @@
 # How to calculate Percentage increase
-print("Percentage Calculator /n Please enter the number which has the percentage increased")
+print()
+print()
+print()
+print("Percentage Calculator \n\n\nPlease enter the number which has the percentage increased")
 increased_number = int(input())
 print("Please enter the original number it was increased from")
 original_number = int(input())
