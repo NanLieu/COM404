@@ -24,3 +24,5 @@ elif (where_to_look == "in the lab"):
 else:
     print("I do not know where that is but I will keep looking.")
 
+print("hurrah!")
+
