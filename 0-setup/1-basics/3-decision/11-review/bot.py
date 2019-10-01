@@ -7,7 +7,7 @@ if(response == "yes"):
         print("Let's go for Pizza!")
     else:
         print("let's go bowling!")
-elif(response == "maybe"):
+elif((response == "maybe") or (response == "possibly")):
     print("Do you want to go to a cinema?")
     cinema = input()
     print("Do you want to watch a movie?")
