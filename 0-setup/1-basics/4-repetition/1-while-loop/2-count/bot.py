@@ -5,6 +5,7 @@ avoid_cables = int(input())
 # Counter of live cables avoided
 live_cables = 0
 while (live_cables < avoid_cables):
+    print("Avoiding...", end="")
     live_cables = live_cables + 1
-    print("Avoiding...Done!", live_cables, "live cables avoided.")
+    print("Done!", live_cables, "live cables avoided.")
 print("All live cables have been avoided.")
