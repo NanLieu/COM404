@@ -10,6 +10,5 @@ while (numbers_to_sum > number):
     input_numbers = int(input())
     total = input_numbers + total
 
-print()
-print("The answer is",total,".")
+print("\nThe answer is",total,".")
 
