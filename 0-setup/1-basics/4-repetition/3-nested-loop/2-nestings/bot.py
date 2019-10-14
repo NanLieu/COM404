@@ -6,12 +6,8 @@ print("Please enter the character for the marker")
 marker_character = input()
 answer = 0
 # Loop command
-for count in range(0, len(sequence_input) , 1):
-    for
-
-
-
-
-
+for characters in sequence_input:
+    for dashes in range(len(marker_character), len(marker_character), 1):
+        answer = answer + 1
 # Provides user the answer for the distance between markers
 print("The distance between the marker is", answer)
