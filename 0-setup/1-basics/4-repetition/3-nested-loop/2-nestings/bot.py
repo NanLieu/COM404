@@ -4,15 +4,14 @@ sequence_input = input()
 # Ask user to input a character for the marker
 print("Please enter the character for the marker")
 marker_character = input()
-result = 0
+answer = 0
 # Loop command
 for count in range(0, len(sequence_input) , 1):
-    for dash in sequence_input:
-        result = result + 1
+    for
 
 
 
 
 
 # Provides user the answer for the distance between markers
-print("The distance between the marker is", result)
+print("The distance between the marker is", answer)

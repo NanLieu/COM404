@@ -12,5 +12,5 @@ print("\nHere I go:")
 for count in range(0,rows,1):
     # Loop to print the number of smileyfaces per column
     for smileyface in range(0, Columns, 1):
-        print(smileyface * ":-) ", end="")
+        print(":-) ", end="")
     print()
