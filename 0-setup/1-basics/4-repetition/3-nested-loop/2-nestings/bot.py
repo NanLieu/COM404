@@ -5,7 +5,7 @@ sequence = input()
 print("Please enter the character for the marker")
 marker = input()
 
-# Find markers
+# Find markers, positioned outside of the range calculations so it doesn't get counted
 marker1_position = -1
 marker2_position = -1
 
