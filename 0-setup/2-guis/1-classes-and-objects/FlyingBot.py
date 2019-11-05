@@ -1,17 +1,14 @@
 from SuperBot import SuperBot
 
 class FlyingBot(SuperBot):
-    def __init__(self, name, age, energy, shield, power_level, hover):
-        super().__init__(name, age, energy, shield, power_level)
-        self.hover = hover
+    def __init__(self, name, age, hover_distance=100):
+        super().__init__(name, age)
+        self.hover_distance = hover_distance
 
-    def display_hover_level(self):
-        print("Special Unit: Flying Bot")
-        print("Hover Distance:", self.hover)
-        print()
+    def get_hover_distance(self):
+        return self.hover_distance
 
-bot3 = FlyingBot("Kal El", 20, 10, 10, 100, 50)
+    def set_hover_distance(self, hover_distance):
+        self.hover_distance = hover_distance
 
-bot3.display_summary()
-bot3.display_hover_level()
 
