@@ -1,8 +1,8 @@
-from bot import Bot
+from Bot import Bot
 from SuperBot import SuperBot
 from FlyingBot import FlyingBot
 
-bot1 = Bot("Charlie", 10, 100, 100)
+bot1 = Bot("Charlie", 10)
 bot2 = SuperBot("Dave", 50, 100)
 bot3 = FlyingBot("Bob", 30)
 

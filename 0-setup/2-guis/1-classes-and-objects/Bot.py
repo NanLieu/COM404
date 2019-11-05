@@ -1,7 +1,7 @@
 class Bot:
 
     # Constructor
-    def __init__(self, name, age, energy, shield):
+    def __init__(self, name, age, energy=100, shield=100):
         self.name = name
         self.age = age
         self.energy = energy

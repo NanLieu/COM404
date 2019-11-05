@@ -1,7 +1,7 @@
-from bot import Bot
+from Bot import Bot
 
 class SuperBot(Bot):
-    def __init__(self, name, age, power_level):
+    def __init__(self, name, age, power_level=100):
         super().__init__(name, age)
         self.power_level = power_level
 
