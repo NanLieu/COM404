@@ -7,10 +7,11 @@ class FlyingBot(SuperBot):
 
     def display_hover_level(self):
         print("Special Unit: Flying Bot")
-        print("Hover Level:", self.hover)
+        print("Hover Distance:", self.hover)
         print()
 
 bot3 = FlyingBot("Kal El", 20, 10, 10, 100, 50)
 
 bot3.display_summary()
 bot3.display_hover_level()
+

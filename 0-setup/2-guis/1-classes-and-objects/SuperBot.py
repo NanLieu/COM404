@@ -12,3 +12,5 @@ class SuperBot(Bot):
 
 bot2 = SuperBot("Dave", 25, 10, 10, 10)
 bot2.display_power_level()
+bot2.display_summary()
+print()
