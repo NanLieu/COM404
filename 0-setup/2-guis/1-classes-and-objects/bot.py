@@ -1,7 +1,5 @@
 class Bot:
 
-
-
     # Constructor
     def __init__(self, name, age, energy, shield):
         self.name = name
@@ -39,14 +37,5 @@ class Bot:
     def __str__(self):
         return "My name is {}".format(self.name)
 
-#bot1 = Bot("Alex", 40, 8, 10)
-#print()
-#bot1.display_name()
-#bot1.display_age()
-#bot1.display_energy()
-#bot1.display_shield()
-#print()
-#bot1.display_summary()
-#print()
-#print(bot1.__str__())
+
 
