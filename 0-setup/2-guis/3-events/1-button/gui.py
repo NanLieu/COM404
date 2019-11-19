@@ -59,8 +59,8 @@ class Gui(Tk):
         purchases = self.tickets_entry.get()
         int_purchases = int(purchases)
         if (int_purchases == 1):
-            messagebox.showinfo("Buy", "You have purchased 1 ticket!")
+            messagebox.showinfo("Tickets", "You have purchased 1 ticket!")
         elif (int_purchases > 1):
-            messagebox.showinfo("Buy", "You have purchased " + str(int_purchases) + " tickets!")
+            messagebox.showinfo("Tickets", "You have purchased " + str(int_purchases) + " tickets!")
         elif (int_purchases == 0 or int_purchases < 0):
-            messagebox.showinfo("Invalid", "You have entered an invalid number of tickets!")
+            messagebox.showinfo("Tickets", "You have entered an invalid number of tickets!")
