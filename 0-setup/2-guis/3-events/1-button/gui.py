@@ -1,4 +1,5 @@
 from tkinter import *
+from tkinter import messagebox
 
 class Gui(Tk):
     
@@ -41,9 +42,9 @@ class Gui(Tk):
                                             pady=10)
         
     def __add_tickets_entry(self):
-        self.email_entry = Entry(self.outer_frame)
-        self.email_entry.grid(row=2, column=1, sticky=W)
-        self.email_entry.configure(width=40)
+        self.tickets_entry = Entry(self.outer_frame)
+        self.tickets_entry.grid(row=2, column=1, sticky=W)
+        self.tickets_entry.configure(width=40)
         
     def __add_buy_button(self):
         self.buy_button = Button(self.outer_frame)
@@ -51,3 +52,15 @@ class Gui(Tk):
         self.buy_button.configure(      bg="#eee",
                                         text="Buy",
                                         padx=20)
+        self.buy_button.bind("<ButtonRelease-1>", self.__buy_button_clicked)
+        
+ # Button event
+    def __buy_button_clicked(self, event):
+        purchases = self.tickets_entry.get()
+        int_purchases = int(purchases)
+        if (int_purchases == 1):
+            messagebox.showinfo("Buy", "You have purchased 1 ticket!")
+        elif (int_purchases > 1):
+            messagebox.showinfo("Buy", "You have purchased " + str(int_purchases) + " tickets!")
+        elif (int_purchases == 0 or int_purchases < 0):
+            messagebox.showinfo("Invalid", "You have entered an invalid number of tickets!")
