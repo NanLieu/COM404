@@ -7,6 +7,7 @@ class Gui(Tk):
         super().__init__()
 
     	 # load resources
+         #pictures to be uploaded
         #self.tick_image = PhotoImage(file="tick.gif")
         #self.cross_image = PhotoImage(file="cross.gif")
     
