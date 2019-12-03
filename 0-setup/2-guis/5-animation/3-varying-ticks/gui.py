@@ -81,13 +81,13 @@ class AnimatedGui(Tk):
         self.bike_image_label.place(x=self.bike_x_pos,
                                     y=self.bike_y_pos)
         self.bike_image_label.configure(image=self.bike_image)
-    
+    # the ambulance image
     def add_ambulance_image_label(self):
         self.ambulance_image_label = Label()
         self.ambulance_image_label.place(x=self.ambulance_x_pos,
                                     y=self.ambulance_y_pos)
         self.ambulance_image_label.configure(image=self.ambulance_image)
-    
+    # the plane image
     def add_plane_image_label(self):
         self.plane_image_label = Label()
         self.plane_image_label.place(x=self.plane_x_pos,
